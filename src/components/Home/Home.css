@@ -1,0 +1,50 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: #7E90FE0D;
+}
+
+.info span {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.info button {
+    width: 190px;
+    height: 65px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+
+.info button:hover {
+    background: linear-gradient(180deg, #7E70FE 0%, #9844FF 100%);
+    ;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.text h2 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 100px;
+    margin-bottom: 0px;
+}
+
+.text p {
+    width: 550px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
