@@ -3,11 +3,14 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import './JobDetails.css';
 
 const JobDetails = () => {
+    //job descriptions
     const jobDetails = useLoaderData();
     let idx = useParams();
     idx = parseInt(idx['jobId']);
     const theJob = jobDetails.find(job => job.id === idx);
 
+    //Applied Jobs
+    
     return (
         <div className='job-details'>
             <h2>Job Details</h2>

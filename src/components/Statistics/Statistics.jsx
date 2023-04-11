@@ -40,6 +40,11 @@ const Statistics = () => {
             highest: 60,
             mark: 50
         },
+        {
+            name: 'A8',
+            highest: 60,
+            mark: 60
+        }
     ];
 
     return (

@@ -52,6 +52,11 @@
     line-height: 30px;
     color: #757575;
 }
+.text img{
+    width: 60px;
+    margin-left: 20px;
+}
+
 
 
 
@@ -90,4 +95,20 @@
     gap: 24px;
     width: 80%;
 }
+.see-all {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.see-all button{
+    width: 190px;
+    height: 65px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
 
+.see-all button:hover {
+    background: linear-gradient(180deg, #7E70FE 0%, #9844FF 100%);
+    ;
+}
