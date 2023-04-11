@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "logo": "google.png",
+        "Job": "Senior Software Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K - 150K",
+        "job-desc": "Develop, design, and maintain software solutions. Write clean, efficient, and well-documented code. Collaborate with cross-functional teams to deliver high-quality products and services. Continuously improve software performance and usability.",
+        "responsibility": "Develop software solutions, write code in various programming languages, collaborate with cross-functional teams to deliver high-quality products, test and debug code, and continuously improve software performance and functionality through updates and maintenance.",
+        "edu-requirements": "Bachelor degree to complete any reputational university.",
+        "experiences": "2-3 Years in this field.",
+        "contact": [
+            {"phone": "017-123-45-678",
+             "email": "info@gmail.com",
+             "address": "Dhanmondi 32, Dhaka, Bangladesh"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "logo": "netflix.png",
+        "Job": "Senior Product Designer",
+        "company": "Netflix",
+        "type": "Onsite",
+        "location": "Rajshahi, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K - 150K",
+        "job-desc": "Lead design strategy, research, and execution of innovative and user-centered product experiences. Collaborate with cross-functional teams to define and deliver solutions that solve complex problems and drive business goals.",
+        "responsibility": "Lead the design of product features and experiences, conduct user research, define design systems, collaborate with cross-functional teams, and ensure delivery of high-quality designs that align with business goals.",
+        "edu-requirements": "Bachelor degree to complete any reputational university.",
+        "experiences": "3-4 Years in this field.",
+        "contact": [
+            {"phone": "017-123-45-678",
+             "email": "info@gmail.com",
+             "address": "Shaheb Bazar, Rajshahi, Bangladesh"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "logo": "OpenAI.png",
+        "Job": "Data Scientist",
+        "company": "Open AI",
+        "type": "Remote",
+        "location": "Bogura, Bangladesh",
+        "time": "Full Time",
+        "salary": "200K - 250K",
+        "job-desc": "Analyze and interpret complex data sets to extract valuable insights and drive business decisions. Develop and implement statistical models and algorithms. Communicate findings and recommendations to stakeholders.",
+        "responsibility": "Collect, process, and analyze large and complex data sets. Develop statistical models, algorithms, and machine learning techniques to extract insights and drive decision-making. Communicate findings to stakeholders and continuously improve models.",
+        "edu-requirements": "Master's degree to complete any reputational university.",
+        "experiences": "4-5 Years in this field.",
+        "contact": [
+            {"phone": "017-123-45-678",
+             "email": "info@gmail.com",
+             "address": "Jaleswaritola, Bogura, Bangladesh"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "logo": "Twitter.png",
+        "Job": "Software Engineer",
+        "company": "Twitter",
+        "type": "Onsite",
+        "location": "Dhaka, Bangladesh",
+        "time": "Part Time",
+        "salary": "100K - 150K",
+        "job-desc": "Develop, design, and maintain software solutions. Write clean, efficient, and well-documented code. Collaborate with cross-functional teams to deliver high-quality products and services. Continuously improve software performance and usability.",
+        "responsibility": "Develop software solutions, write code in various programming languages, collaborate with cross-functional teams to deliver high-quality products, test and debug code, and continuously improve software performance and functionality through updates and maintenance.",
+        "contact": [
+            {"phone": "017-123-45-678",
+             "email": "info@gmail.com",
+             "address": "Dhanmondi 32, Dhaka, Bangladesh"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "logo": "Amazon.png",
+        "Job": "Software Engineer",
+        "company": "Amazon",
+        "type": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K - 150K",
+        "job-desc": "Develop, design, and maintain software solutions. Write clean, efficient, and well-documented code. Collaborate with cross-functional teams to deliver high-quality products and services. Continuously improve software performance and usability.",
+        "responsibility": "Develop software solutions, write code in various programming languages, collaborate with cross-functional teams to deliver high-quality products, test and debug code, and continuously improve software performance and functionality through updates and maintenance.",
+        "contact": [
+            {"phone": "017-123-45-678",
+             "email": "info@gmail.com",
+             "address": "Dhanmondi 32, Dhaka, Bangladesh"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "logo": "tesla.png",
+        "Job": "Software Engineer",
+        "company": "Tesla",
+        "type": "Onsite",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K - 150K",
+        "job-desc": "Develop, design, and maintain software solutions. Write clean, efficient, and well-documented code. Collaborate with cross-functional teams to deliver high-quality products and services. Continuously improve software performance and usability.",
+        "responsibility": "Develop software solutions, write code in various programming languages, collaborate with cross-functional teams to deliver high-quality products, test and debug code, and continuously improve software performance and functionality through updates and maintenance.",
+        "contact": [
+            {"phone": "017-123-45-678",
+             "email": "info@gmail.com",
+             "address": "Dhanmondi 32, Dhaka, Bangladesh"
+            }
+        ]
+    }
+]

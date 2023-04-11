@@ -1,5 +1,7 @@
 /* Banner Section  */
 
+
+
 .info {
     display: flex;
     justify-content: space-between;
@@ -51,14 +53,41 @@
     color: #757575;
 }
 
+
+
 /* Job Category Section  */
 
-.job-category {
+
+
+.heading {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.heading h2 {
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 140px;
+}
+.heading p {
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 50px;
 }
 .categories {
     display: flex;
     margin: 25px;
 }
+
+
+
+/* featured jobs  */
+
+.jobs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 80%;
+}
+
