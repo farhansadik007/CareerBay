@@ -6,6 +6,7 @@ import Job from '../Job/Job';
 
 const Home = () => {
     const categories = useLoaderData();
+
     const [jobs, setJobs] = useState([]);
 
     useEffect(()=>{
@@ -13,7 +14,6 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setJobs(data))
     },[]);
-
 
     return (
         <div>

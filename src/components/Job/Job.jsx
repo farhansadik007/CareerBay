@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import './Job.css';
+import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {
-    const { logo, Job, company, type, time, location, salary } = job;
+    const { id, logo, Job, company, type, time, location, salary } = job;
 
     return (
         <div className='card'>
@@ -17,7 +18,9 @@ const Job = ({ job }) => {
                 <p><img src="location.png" />{location}</p>
                 <p><img src="salary.png" /> Salary: {salary}</p>
             </div>
-            <button>View Details</button>
+            <Link to={`/${id}`}>
+                <button>View Details</button>
+            </Link>
         </div>
     );
 };
