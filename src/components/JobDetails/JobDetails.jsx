@@ -1,6 +1,8 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import './JobDetails.css';
+import { addToDb, getShoppingCart } from '../fakedb';
+import toast from 'react-hot-toast';
 
 const JobDetails = () => {
     //job descriptions
@@ -10,7 +12,20 @@ const JobDetails = () => {
     const theJob = jobDetails.find(job => job.id === idx);
 
     //Applied Jobs
-    
+
+    const notify = () => toast.error('Already Applied!');
+
+    let flag = true;
+    const applied = id => {
+        const jobs = getShoppingCart();
+        for(const idx in jobs) {
+            if(parseInt(idx) === id) {
+                flag = false;
+                notify();
+            }
+        }
+        if(flag) addToDb(id);
+    }
     return (
         <div className='job-details'>
             <h2>Job Details</h2>
@@ -33,7 +48,7 @@ const JobDetails = () => {
                     <p><span>Phone:</span> {theJob.contact.phone}</p>
                     <p><span>Email:</span> {theJob.contact.email}</p>
                     <p><span>Address:</span> {theJob.contact.address}</p>
-                    <button className='apply'>Apply Now</button>
+                    <button onClick={()=>{applied(theJob.id)}} className='apply'>Apply Now</button>
                 </div>
             </div>
         </div>

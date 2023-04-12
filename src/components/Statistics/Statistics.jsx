@@ -50,6 +50,7 @@ const Statistics = () => {
     return (
         <div className='chart'>
             <h1>Assignment Marks:</h1>
+            <p>It's not simple Line or Bar chart, its Area Chart</p>
                 <AreaChart
                     width={1200}
                     height={600}

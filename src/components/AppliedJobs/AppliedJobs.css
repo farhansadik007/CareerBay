@@ -1,0 +1,11 @@
+.applied {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.applied h2 {
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
