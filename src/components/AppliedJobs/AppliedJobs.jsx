@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './AppliedJobs.css';
 import { useLoaderData } from 'react-router-dom';
 import { getShoppingCart } from '../fakedb';
@@ -16,13 +16,42 @@ const AppliedJobs = () => {
             }
         }
     }
+    const [filter, setFilter] = useState([]);
+    useEffect(()=>{
+        setFilter(jobTray);
+    },[])
+    const onSite = () => {
+        jobTray = jobTray.filter(jb=> jb.type === 'Onsite');
+        setFilter(jobTray);
+    }
+    const Remote = () => {
+        jobTray = jobTray.filter(jb=> jb.type === 'Remote');
+        setFilter(jobTray);
+    }
+    const showAll = () => {
+        setFilter(jobTray);
+    }
 
     return (
         <div className='applied'>
             <h2>Applied Jobs</h2>
+
+            {/* filter button  */}
+
+            <div className='filter'>
+                <button>Filter By</button>
+                <div className='dropdown'>
+                <button onClick={showAll}>All</button>
+                <button onClick={Remote}>Remote</button>
+                <button onClick={onSite}>On-site</button>
+                </div>
+            </div>
+
+            {/* Applied Jobs  */}
+
             <div>
                 {
-                    jobTray.map(job =>
+                    filter.map(job =>
                         <JobCard
                             key={job.id}
                             job={job}
