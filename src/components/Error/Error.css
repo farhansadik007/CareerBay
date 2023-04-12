@@ -14,7 +14,7 @@
 }
 .error-page img {
     width: 50%;
-    border-radius: 100px;
+    border-radius: 15%;
 }
 .error-page a {
     display: flex;
@@ -27,4 +27,20 @@
     color: #FFFFFF;
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
     border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .error-page a {
+        width: 20%;
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 545px) {
+    .error-page h1 {
+        font-size: 100px;
+        margin-top: 35%;
+    }
+    .error-page h2 {
+        font-size: 30px;
+    }
 }
