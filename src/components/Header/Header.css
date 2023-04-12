@@ -44,3 +44,57 @@
 .apply-btn button:hover {
     background: linear-gradient(180deg, #7E70FE 0%, #9844FF 100%);;
 }
+
+
+/* responsive  */
+
+
+@media only screen and (max-width: 1200px) {
+    .header-sect {
+        flex-direction: column;
+        background-color: #7E90FE0D;
+        height: 300px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+    
+    .logo img {
+        width: 50px;
+        height: 50px;
+        padding-right: 15px;
+    }
+    
+    .logo a {
+        color: #1A1919;
+        font-size: 32px;
+        font-weight: 800;
+    }
+    .nav-btn {
+        margin-bottom: 30px;
+    }
+    .nav-btn a {
+        font-weight: 700;
+        font-size: 16px;
+        color: #757575;
+        margin: 30px;
+    }
+    .apply-btn {
+        padding-right: 0px;
+    }
+    .apply-btn button {
+        width: 190px;
+        height: 65px;
+        color: #FFFFFF;
+        background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+        margin-bottom: 20px;
+    }
+    .apply-btn button:hover {
+        background: linear-gradient(180deg, #7E70FE 0%, #9844FF 100%);;
+    }
+}

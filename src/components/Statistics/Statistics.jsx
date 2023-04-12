@@ -51,6 +51,8 @@ const Statistics = () => {
         <div className='chart'>
             <h1>Assignment Marks:</h1>
             <p>It's not simple Line or Bar chart, its Area Chart</p>
+            <ResponsiveContainer width={"80%"}  aspect={2}>
+
                 <AreaChart
                     width={1200}
                     height={600}
@@ -61,13 +63,14 @@ const Statistics = () => {
                         left: 0,
                         bottom: 0,
                     }}
-                >
+                    >
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis dataKey="highest"/>
                     <Tooltip />
                     <Area type="monotone" dataKey="mark" stroke="#0084d0" fill="#0094d0" />
                 </AreaChart>
+                    </ResponsiveContainer>
         </div>
     );
 };

@@ -1,7 +1,5 @@
 /* Banner Section  */
 
-
-
 .info {
     display: flex;
     justify-content: space-between;
@@ -52,17 +50,50 @@
     line-height: 30px;
     color: #757575;
 }
-.text img{
+
+.text img {
     width: 60px;
     margin-left: 20px;
 }
 
 
+@media screen and (max-width: 1300px) {
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 50px;
+        background-color: #7E90FE0D;
+    }
+    .info button {
+        margin-bottom: 50px;
+    }
+    .text {
+        align-items: center;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .text h2 {
+        font-size: 50px;
+        line-height: 90px;
+    }
+    .text p {
+        width: 500px;
+        text-align: center;
+    }
+    .text {
+        padding-left: 0px;
+    }
+    .img img {
+        width: 500px;
+    }
+}
 
 
 /* Job Category Section  */
-
-
 
 .heading {
     display: flex;
@@ -75,33 +106,51 @@
     font-size: 48px;
     margin-top: 140px;
 }
+
 .heading p {
     font-weight: 500;
     color: #757575;
     margin-bottom: 50px;
 }
+
 .categories {
     display: flex;
     margin: 25px;
 }
 
-
+@media screen and (max-width: 1300px) {
+    .categories {
+        flex-direction: column;
+        margin: 25px;
+    }
+}
+@media screen and (max-width: 545px) {
+    .heading {
+        width: 100%;
+    }
+    .p {
+        text-align: center;
+        width: 450px;
+    }
+}
 
 /* featured jobs  */
 
-.jobs{
+.jobs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     width: 80%;
 }
+
 .see-all {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 80px;
 }
-.see-all button{
+
+.see-all button {
     width: 190px;
     height: 65px;
     color: #FFFFFF;
@@ -111,4 +160,10 @@
 .see-all button:hover {
     background: linear-gradient(180deg, #7E70FE 0%, #9844FF 100%);
     ;
+}
+
+@media screen and (max-width: 1100px) {
+    .jobs {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

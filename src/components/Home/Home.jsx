@@ -41,7 +41,7 @@ const Home = () => {
             {/* job categories  */}
             <div className='heading'>
                 <h2>Job Category List</h2>
-                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <p className='p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='categories'>
                     {
                         categories.map(category => <Category
@@ -54,7 +54,7 @@ const Home = () => {
             {/* featured job  */}
             <div className='heading'>
                 <h2>Featured Jobs</h2>
-                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <p className='p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='jobs'>
                     {
                         change.map(job => <Job
